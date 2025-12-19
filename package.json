@@ -2,8 +2,8 @@
   "name": "digitalminds",
   "version": "1.0.0",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css"
+    "dev": "npm exec tailwindcss -- -i ./src/input.css -o ./public/style.css --watch",
+    "build": "npm exec tailwindcss -- -i ./src/input.css -o ./public/style.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.19"
